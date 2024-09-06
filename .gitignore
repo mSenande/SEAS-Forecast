@@ -1,0 +1,11 @@
+# ignore all .grib files
+*.grib
+
+# ignore all .grib.*.idx files
+*.grib.*.idx
+
+# ignore all .nc files
+*.nc
+
+# ignore all .env files
+*.env

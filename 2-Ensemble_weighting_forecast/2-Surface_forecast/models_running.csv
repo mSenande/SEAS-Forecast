@@ -1,0 +1,9 @@
+institution,name,short_institution,short_name
+"ECMWF","SEAS5.1","ecmwf","51"
+"Météo France","System 8","meteo_france","8"
+"Met Office","GloSea6.3","ukmo","603"
+"DWD","GCFS2.1","dwd","21"
+"CMCC","SPSv3.5","cmcc","35"
+"NCEP","CFSv2","ncep","2"
+"JMA","CPS3","jma","3"
+"ECCC","GEM5.2-NEMO","eccc","5"
