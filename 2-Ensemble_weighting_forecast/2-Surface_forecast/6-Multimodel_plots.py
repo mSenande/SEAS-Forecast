@@ -360,12 +360,12 @@ probs_forecast.to_netcdf(f'{NEW_FOREDIR}/{multi_fcst_bname}-{meses}_{var}-probab
 probs_forecast_max = probs_forecast.where(probs_forecast==probs_forecast.max(dim='category'))
 
 # %% [markdown]
-# ## 3.6 Plots
+# ## 6.2 Plots
 
 # We represent the anomaly and forecast probabilities with some verification scores (Correlation, RPSS and ROC area) of the hindcast.
 
 #%%
-print("3.6 Plots")
+print("6.2 Plots")
 
 # Some predefined options to plot each variable
 var_options = {'t2m': [np.linspace(-3.,3.,13), plt.colormaps['RdYlBu_r'], r'2m temperature anomaly ($^\circ C$)',np.linspace(5.,20.,16), r'2m temperature'],
